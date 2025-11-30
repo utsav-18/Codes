@@ -1,0 +1,5 @@
+Hi my name is Utsav Raj
+our code are stored in form of texts in the pc;
+=> to store the data permanently 
+   we need to store it in secondary
+   memory in the form of files.

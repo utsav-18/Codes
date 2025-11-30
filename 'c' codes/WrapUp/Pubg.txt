@@ -1,0 +1,5 @@
+ Hello world 
+ Text has been replaced.
+
+ open (writeFile.c)
+ 
