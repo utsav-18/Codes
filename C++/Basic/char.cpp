@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 
-    char a = 'A';
+    char a = 'B';
 
     int value = (int)a; //Type casting; => Explicit
 
