@@ -14,9 +14,6 @@
 }       cout<<"\n\n";
 
 
-
-
-
 int lo=0;
 int mid=0;
 int hi=v.size()-1;

@@ -11,7 +11,6 @@ int s;cout<<"Enter size:";cin>>s;
     for(int i=0;i<s;i++){
         int e;
         cout<<"Element "<<i<<" = ";
-
         cin>>e;
         v.push_back(e);
     }

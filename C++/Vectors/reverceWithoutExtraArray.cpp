@@ -20,15 +20,15 @@
 
 // }
 
-    int main () {
+int main () {
+int s;
+cout<<"Enter size:";
+cin>>s;
 
-int s;cout<<"Enter size:";cin>>s;
-
-    vector<int>v;
+vector<int>v;
     for(int i=0;i<s;i++){
         int e;
         cout<<"Element "<<i<<" = ";
-
         cin>>e;
         v.push_back(e);
     }

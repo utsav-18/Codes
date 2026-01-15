@@ -27,7 +27,6 @@
             cout<<"Enter element "<<i<<":";
             cin>>e;
             v.push_back(e);
-
         }
 
         cout<<"Enter target:";

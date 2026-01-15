@@ -16,12 +16,11 @@ int rotation (int x,int y,vector<int>&a) {
 
         }
     }
-
     for(int i=0;i<y;i++){
         cout<<a[i]<<" ";
         
     }
-    
+
     cout<<"\n";
 
 }
