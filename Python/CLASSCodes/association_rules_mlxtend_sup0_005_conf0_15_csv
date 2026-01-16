@@ -1,0 +1,2 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski
+frozenset({'bottled beer'}),frozenset({'whole milk'}),0.04531176903027468,0.15792287642852368,0.007150972398583172,0.15781710914454278,0.9993302598941151,1.0,-4.792502742702494e-06,0.9998744129272522,-0.0007015052616162969,0.036468984321745064,-0.00012560284684176356,0.10154926553291464
