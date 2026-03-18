@@ -1,7 +1,8 @@
-a = int(input("Enter no. 1: "));
-b = int(input("Enter no. 2: "));
-c = int(input("Enter no. 3: "));
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+d = int(input("Enter d: "))
 
-average = float((a+b+c)/3);
+avg = float((a+b+c+d)/4)
+print(avg)
 
-print("Average of three number is: " , average);

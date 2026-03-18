@@ -1,6 +1,4 @@
 from datetime import date
 
-
-letter = '''Dear <|Name|> You are selected <|Date|>''';
-
-print(letter.replace("<|Name|>", 'Utsav').replace("<|Date|>",str(date.today())));
+snetence = """Hello user_name today's date is today's_date"""
+print(snetence.replace("user_name", "Utsav Raj").replace("today's_date",str(date.today())))

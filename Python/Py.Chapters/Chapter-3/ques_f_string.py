@@ -1,3 +1,2 @@
-name = input("Enter your name: ");
-
-print(f"Good Afternoon {name.title()}");
+name = input("Enter your name: ")
+print(f"Good Mornimg Mr.{name.title()}")
