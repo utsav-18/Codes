@@ -4,7 +4,7 @@
 #     count+=1
 
 # while True:
-#     print("Love You Baby")
+#     print("python")
 
 shop = ['oil','potato','tomato','chilli','biscuit']
 

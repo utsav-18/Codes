@@ -1,5 +1,3 @@
-
-f = open('text.txt')
-data = f.read()
-print(data)
-f.close() 
+f = open("text.txt","a")
+f.write(" Are you studing")
+f.close()
