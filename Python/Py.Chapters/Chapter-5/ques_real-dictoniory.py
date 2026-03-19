@@ -11,5 +11,6 @@ words = {
   "zindagi": "life"
 }
 
-word = input("Enter a word you want meaning of: " )
-print(words[word])
+word = input("Enter a word you want meaning of: ")
+
+print(words.get(word, "Word not found"))

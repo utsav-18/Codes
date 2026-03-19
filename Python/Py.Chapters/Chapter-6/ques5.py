@@ -1,4 +1,4 @@
-# names = {'utsav', 'supriya', 'aman', 'manish'}
+# names = {'utsav', 'Anshu', 'aman', 'raj'}
 
 # n = input("Enter your name: ")
 # a = 0
@@ -12,7 +12,7 @@
 # else:
 #     print("Not Found!")
 
-names = {'utsav', 'supriya', 'aman', 'manish'}
+names = {'utsav', 'anshu', 'aman', 'raj'}
 
 n = input("Enter your name: ")
 

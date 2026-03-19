@@ -1,6 +1,6 @@
-friends = ["Apple","utsav",5,3.2,False,"Subbu"]
+friends = ["Apple","utsav",5,3.2,False,"anshu"]
 print(friends[0])
-friends[0] = 'Supriya'
+friends[0] = 'anshu'
 print(friends[0])
 print(friends[:]) 
 print(friends)
