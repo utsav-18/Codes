@@ -1,7 +1,7 @@
 class Account():
     def __init__(self, Account_Number, balance):
-        self.__Account_Number = Account_Number
-        self.__balance = balance 
+        self.__Account_Number = Account_Number #private 
+        self.__balance = balance #private
 
     def credit(self,amount):
         if(amount>0):
