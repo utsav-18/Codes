@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self,name):
+    def __init__(self,name):  # Intance Method
         self.name=name
         
 s1 = Student('Utsav')
