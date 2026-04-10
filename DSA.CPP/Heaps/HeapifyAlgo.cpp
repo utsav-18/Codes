@@ -6,6 +6,7 @@ void print(int arr[],int n){
         cout<<arr[i]<<" ";
     }cout<<endl;
 }
+
 void heapify(int i,int arr[],int n){
     while(true){
         int left = 2*i, right=2*i+1;
