@@ -3,30 +3,28 @@
 #include <vector>
 using namespace std;
 
-    vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int>ans;
-        int n = nums.size();
-        unordered_map<int,int>m;
-        for(int i = 0;i<n;i++){
-            int rem = target - nums[i];
-            if(m.find(rem)!=m.end()){
-                ans.push_back(m[rem]);
-                ans.push_back(i);
-            }
-            else m[nums[i]] = i;
+vector<int> twoSum(vector<int>& nums, int target) {
+    unordered_map<int,int> m;
+
+    for(int i = 0; i < nums.size(); i++) {
+        int rem = target - nums[i];
+
+        if(m.find(rem) != m.end()) {
+            return {m[rem], i}; // return immediately
         }
-        return ans;
+
+        m[nums[i]] = i;
     }
 
-    int main(){
-        vector<int>ans;
-        vector<int>sumtwo;
+    return {}; // if no pair found
+}
 
-        ans = {2,4,5,11,4,1,2,5,6,8,7,4,5};
+int main() {
+    vector<int> nums = {2,4,5,11,4,1,2,5,6,8,7,4,5};
 
-        sumtwo=twoSum(ans,7);
+    vector<int> result = twoSum(nums, 7);
 
-        for(int i = 0;i<sumtwo.size();i++){
-            cout<<sumtwo[i]<<" ";
-        }
+    for(int x : result) {
+        cout << x << " ";
     }
+}
