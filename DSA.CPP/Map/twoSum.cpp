@@ -8,22 +8,17 @@ vector<int> twoSum(vector<int>& nums, int target) {
 
     for(int i = 0; i < nums.size(); i++) {
         int rem = target - nums[i];
-
         if(m.find(rem) != m.end()) {
-            return {m[rem], i}; // return immediately
+            return {m[rem], i}; 
         }
-
         m[nums[i]] = i;
     }
-
-    return {}; // if no pair found
+    return {}; 
 }
 
 int main() {
     vector<int> nums = {2,4,5,11,4,1,2,5,6,8,7,4,5};
-
     vector<int> result = twoSum(nums, 7);
-
     for(int x : result) {
         cout << x << " ";
     }
