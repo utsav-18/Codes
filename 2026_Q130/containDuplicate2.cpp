@@ -20,7 +20,7 @@ int main(){
     vector<int> nums;
     int k;
 
-    nums= {1,1,1,3,3,4,3,2,4,2};
+    nums= {1,1,1,3,3,4,3,2,4,2,4,5,6,2,3,1,0,1,2,3,3};
     k = 3;
     cout << containsDuplicate(nums,k) << endl;
     return 0;
