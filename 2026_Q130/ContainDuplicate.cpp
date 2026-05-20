@@ -14,7 +14,7 @@ using namespace std;
     }
 int main(){
     vector<int> nums;
-    nums= {1,1,1,3,3,4,3,2,4,2,5,6,4,6,5,1,2,3,3};
+    nums= {1,1,1,3,3,4,3,23,3};
     cout << containsDuplicate(nums) << endl;
     return 0;
 }
