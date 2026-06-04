@@ -2,7 +2,6 @@
 #include <vector>
 #include <climits>
 using namespace std;
-
     int maxProfit(vector<int>& prices) {
         int m = prices[0];
         int profit = 0;
@@ -14,8 +13,6 @@ using namespace std;
         }
         return profit;
     }
-
-
 int main(){
     vector<int> prices;
     prices = {7,1,5,3,6,4,5,6,7,8,9,5,2,2};
