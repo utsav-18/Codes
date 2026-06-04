@@ -2,19 +2,20 @@
 #include <vector>
 #include <unordered_set>
 using namespace std;
-    bool containsDuplicate(vector<int>& nums,int k) {
-        unordered_set<int>s;
-        for(int i=0;i<nums.size();i++){
-            if(s.count(nums[i])){
-                return true;
-            }
-            s.insert(nums[i]);
-            if(i>=k){
-                s.erase(nums[i-k]);
-            }
+
+bool containsDuplicate(vector<int>&nums,int k){
+    unordered_set<int>s;
+    for(int i=0;i<nums.size();i++){
+        if(s.count(nums[i])){
+            return true;
         }
-        return false;
+        s.insert(nums[i]);
+        if(i>=k){
+            s.erase(nums[i-k]);
+        }
     }
+    return false;
+}
 
 int main(){
     vector<int> nums;
