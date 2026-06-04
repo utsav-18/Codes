@@ -15,14 +15,12 @@ vector<int> productExceptSelf(vector<int>& nums) {
     }
     return ans;
 }
-
 void print(vector<int>& vec){
     for(int i=0;i<vec.size();i++){
         cout<<vec[i]<<" ";
     }
         cout<<endl;
 }
-
 int main(){
     vector<int>v;
     v={1,2,3,4};
