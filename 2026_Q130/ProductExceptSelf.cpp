@@ -10,8 +10,10 @@ vector<int> productExceptSelf(vector<int>& nums) {
         pre=pre*nums[i];
     }
     for(int i=nums.size()-1;i>=0;i--){
-        
+        ans[i]=ans[i]*post;
+        post = post*nums[i];
     }
+    return ans;
 }
 
 void print(vector<int>& vec){
