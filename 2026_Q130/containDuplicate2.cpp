@@ -2,7 +2,6 @@
 #include <vector>
 #include <unordered_set>
 using namespace std;
-
 bool containsDuplicate(vector<int>&nums,int k){
     unordered_set<int>s;
     for(int i=0;i<nums.size();i++){
@@ -16,7 +15,6 @@ bool containsDuplicate(vector<int>&nums,int k){
     }
     return false;
 }
-
 int main(){
     vector<int> nums;
     int k;
