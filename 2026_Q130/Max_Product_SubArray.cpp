@@ -4,17 +4,17 @@
 using namespace std;
 
     int maxProduct(vector<int>& nums) {
-        int curPro=1;
-        int maxPro=nums[0];
-
-        for(int i=0;i<nums.size();i++){
-            if(curPro<0){
-                curPro=1;
-            }
-            curPro*=nums[i];
-            maxPro=max(curPro,maxPro);
+        int chota = nums[0];
+        int bada = nums[0];
+        int ans = bada;
+        for(int i=1;i<nums.size();i++){
+            int cur = nums[i];
+            int temp = max(cur,max(bada*cur,chota*cur));
+            chota = min(cur,min(chota*cur,bada*cur));
+            bada = temp;
+            ans = max(ans,bada);
         }
-        return maxPro;
+        return ans;
     }
 
 int main(){
