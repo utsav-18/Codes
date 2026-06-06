@@ -3,13 +3,33 @@
 #include<queue>
 using namespace std;
 
-int findMin(vector<int>& nums) {
-        priority_queue<int, vector<int> , greater<int> > pq;
-        for(int i=0;i<nums.size();i++){
-            pq.push(nums[i]);
+
+    int findMin(vector<int>& nums) {
+        int left = 0;
+        int right = nums.size() - 1;
+        int ans = nums[0];
+
+        while(left <= right) {
+
+            if(nums[left] <= nums[right]) {
+                ans = min(ans, nums[left]);
+                break;
+            }
+
+            int mid = left + (right - left) / 2;
+
+            ans = min(ans, nums[mid]);
+
+            if(nums[left] <= nums[mid]) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
         }
-        return pq.top();
+
+        return ans;
     }
+
 
 int main(){
     vector<int>nums;
