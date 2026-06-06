@@ -32,5 +32,8 @@ using namespace std;
     }
 
     int main(){
-
+        vector<int>nums;
+        nums = {4,5,6,7,0,1,2};
+        int target = 0;
+        cout<<search(nums,target);
     }
