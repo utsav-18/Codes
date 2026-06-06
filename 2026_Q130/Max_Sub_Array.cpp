@@ -3,19 +3,18 @@
 #include <climits>
 using namespace std;
 
-int maxSubArray(vector<int>& nums) {
-        int sum = 0, maxSum=0;
-
+    int maxSubArray(vector<int>& nums) {
+        int curSum = 0;
+        int maxSum = nums[0];
         for(int i=0;i<nums.size();i++){
-            sum=0;
-            for(int j=i;j<nums.size();j++){
-                sum = sum + nums[j];
+            if(curSum<0){
+                curSum = 0;
             }
-            maxSum = max(sum,maxSum);
+            curSum = curSum + nums[i];
+            maxSum = max(curSum,maxSum);
         }
         return maxSum;
-
-}
+    }
 
 int main(){
     vector<int>nums;
