@@ -3,7 +3,9 @@
 #include <algorithm>
 using namespace std;
 
-
+    int removeDuplicates(vector<int>& nums) {
+        
+    }
 
 int main(){
     vector<int> nums;
