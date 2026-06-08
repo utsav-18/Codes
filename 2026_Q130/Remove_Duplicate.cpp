@@ -4,12 +4,18 @@
 using namespace std;
 
     int removeDuplicates(vector<int>& nums) {
-        
+        int count=0;
+        for(int i=0;i<nums.size();i++){
+            if(nums[i]==nums[i+1]){
+                count++;
+            }
+        }
+        return count;
     }
 
 int main(){
     vector<int> nums;
-    nums = {7,1,5,3,6,4,5,6,7,8,9,5,2,2,5,4,8};
-
+    nums = {0,0,1,1,1,2,2,3,3,4};
+    cout<<removeDuplicates(nums);
     return 0;
 }
