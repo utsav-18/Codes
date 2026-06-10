@@ -19,5 +19,5 @@ using namespace std;
     }
 
     int main(){
-        cout<<climbStairs(5);
+        cout<<climbStairs(10);
     }
