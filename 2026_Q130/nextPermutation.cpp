@@ -37,7 +37,7 @@ void print(vector<int>&nums){
 
 int main(){
     vector<int>nums;
-    nums={1,2,3,5,4};
+    nums={1,2,3,5,4,4,5};
     print(nums);
     nextPermutation(nums);
     print(nums);
