@@ -21,17 +21,13 @@ void display(ListNode* ptr) {
 }
 
     ListNode* middleNode(ListNode* head) {
-        int size = 0;
-        ListNode* temp = head;
-        while(temp){
-            size++;
-            temp = temp->next;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while(fast!=NULL && fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
         }
-        temp = head;
-        for(int i = 0; i < size/2; i++){
-            temp = temp->next;
-        }
-        return temp;
+        return slow;
     }
 
 
@@ -43,12 +39,15 @@ int main() {
     ListNode* d = new ListNode(4);
     ListNode* e = new ListNode(5);
     ListNode* f = new ListNode(6);
-
+    ListNode* g = new ListNode(7);
+    
     a->next = b;
     b->next = c;
     c->next = d;
     d->next = e;
     e->next = f;
+    f->next = g;
+
 
     display(a);
     ListNode * temp = new ListNode(0);
