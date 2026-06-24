@@ -21,6 +21,6 @@ using namespace std;
 
     int main(){
         vector<int>nums;
-        nums={1,2,3,1};
+        nums={2,4,3,9,11,2};
         cout<<rob(nums);
     }
