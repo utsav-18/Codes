@@ -32,6 +32,12 @@ using namespace std;
         }
 
 
-int main(){
+int main() {
 
+
+    string s = "226";
+
+    cout << numDecodings(s);
+
+    return 0;
 }
