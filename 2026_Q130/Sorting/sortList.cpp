@@ -45,7 +45,22 @@ void display(ListNode* ptr) {
     }
 
 int main() {
+    ListNode* a = new ListNode(4);
+    ListNode* b = new ListNode(2);
+    ListNode* c = new ListNode(0);
+    ListNode* d = new ListNode(4);
+    ListNode* e = new ListNode(3);
+    ListNode* f = new ListNode(9);
+    ListNode* g = new ListNode(5);
 
+    a->next = b;
+    b->next = c;
+    c->next = d;
+    d->next = e;
+    e->next = f;
+    f->next = g;
 
+    display(a);
+    
     return 0;
 }
