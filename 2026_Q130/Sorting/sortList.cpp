@@ -61,6 +61,8 @@ int main() {
     f->next = g;
 
     display(a);
-    
+    sortList(a);
+    display(a);
+
     return 0;
 }
