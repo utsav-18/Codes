@@ -37,6 +37,8 @@ int racecar(int target) {
         return dp[target];
     }
 
-int main(){
-    
+int main() {
+    int target = 6;
+    cout <<racecar(target);
+    return 0;
 }
