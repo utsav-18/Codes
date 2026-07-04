@@ -4,12 +4,6 @@
 #include <climits>
 using namespace std;
 
-int racecar(int target) {
-        vector<int> dp(target + 1, -1);
-        dp[0] = 0;
-        return raceCar(target, dp);
-    }
-
     int raceCar(int target, vector<int>& dp) {
         if (dp[target] >= 0) {
             return dp[target];
@@ -36,6 +30,14 @@ int racecar(int target) {
 
         return dp[target];
     }
+
+
+int racecar(int target) {
+        vector<int> dp(target + 1, -1);
+        dp[0] = 0;
+        return raceCar(target, dp);
+    }
+
 
 int main() {
     int target = 6;
