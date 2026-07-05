@@ -27,7 +27,6 @@ using namespace std;
     }
 
 
-
 int main(){
     cout<<longestCommonSubsequence("abcdefg","acdg");
 
