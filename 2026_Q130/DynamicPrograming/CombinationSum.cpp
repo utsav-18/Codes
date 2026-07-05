@@ -2,36 +2,30 @@
 #include <vector>
 using namespace std;
 
-    void backTrack(int target, vector<vector<int>>& res,
-                   vector<int>& combination, int start,
-                   vector<int>& candidates) {
-
-        if (target == 0) {
-            res.push_back(vector<int>(combination));
-        }
-        else if (target < 0) {
-            return;
-        }
-
-        for (int i = start; i < candidates.size(); i++) {
-            combination.push_back(candidates[i]);
-            backTrack(target - candidates[i], res, combination, i, candidates);
-            combination.pop_back();
-        }
+void backtrack(vector<vector<int>>&res,vector<int>&combination,vector<int>&candidates,int start,int target){
+    if(target==0){
+        res.push_back(vector<int>(combination));
     }
-
-    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-
-        vector<vector<int>> res;
-        vector<int> combination;
-
-        backTrack(target, res, combination, 0, candidates);
-        return res;
+    else if(target<0){
+        return;
     }
+    for(int i= start;i<candidates.size();i++){
+        combination.push_back(candidates[i]);
+        backtrack(res,combination,candidates,i,target-candidates[i]);
+        combination.pop_back();
+    }
+}
+
+vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+    vector<vector<int>>res;
+    vector<int>combination;
+    backtrack(res,combination,candidates,0,target);
+    return res;
+}
 
 
 
-    int main(){
+int main(){
         vector<int>nums;
         nums={1,2,3,4,5,6,7,8,9};
         int target = 5;
@@ -42,4 +36,4 @@ using namespace std;
             }
             cout<<endl;
         }
-    }
+}
