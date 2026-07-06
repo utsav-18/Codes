@@ -3,19 +3,19 @@
 #include <string>
 using namespace std;
 
-void backtrack(vector<string>&ans,string& cur,int open, int close,int max){
-    if(cur.size()==max*2){
+void backtrack(vector<string>&ans,string cur,int open,int close,int maxi){
+    if(cur.size()==maxi*2){
         ans.push_back(cur);
         return;
     }
-    if(open<max){
+    if(open<maxi){
         cur.push_back('(');
-        backtrack(ans,cur,open+1,close,max);
+        backtrack(ans,cur,open+1,close,maxi);
         cur.pop_back();
     }
     if(close<open){
         cur.push_back(')');
-        backtrack(ans,cur,open,close+1,max);
+        backtrack(ans,cur,open,close+1,maxi);
         cur.pop_back();
     }
 }
