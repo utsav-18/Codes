@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
+
 using namespace std;
 void print(vector<int>&v){
     for(int i=0;i<v.size();i++){
@@ -8,17 +8,16 @@ void print(vector<int>&v){
     }
     cout<<endl;
 }
-int removeElement(vector<int>& nums, int val) {
-for(int i=0;i<nums.size();){
-    if(nums[i]==val){
-        nums.erase(nums.begin() + i);
+    int removeElement(vector<int>& nums, int val) {
+        int k=0;
+        for (int i = 0; i < nums.size();i++) {
+            if (nums[i] != val) {
+                nums[k++] = nums[i];
+            } 
+        }
+
+        return k;
     }
-    else{
-        i++;
-    }
-}
-return nums.size();
-}
 
 int main(){
 vector<int>v;
