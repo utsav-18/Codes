@@ -3,16 +3,14 @@
 using namespace std;
 
 bool canJump(vector<int>& nums) {
-    int finall = nums.size()-1;
+    int f = nums.size()-1;
     for(int i=nums.size()-2;i>=0;i--){
-        if(i+nums[i]>=finall){
-            finall = i;
+        if(i+nums[i]>=f){
+            f=i;
         }
     }
-    if(finall==0){
-        return true;
-    }
-    return false;
+    if(f==0) {return true;}
+    else return false;
 }
 
 
