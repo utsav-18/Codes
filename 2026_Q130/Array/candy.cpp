@@ -32,3 +32,12 @@ int main(){
     cout<<candy(v)<<" Candies are needed!!";
 
 }
+
+// The key insight
+
+// The whole algorithm boils down to this:
+
+// 1.Initialize everyone with 1 candy.
+// 2.Left → Right: Ensure every child with a higher rating than the left neighbor gets more candies.
+// 3.Right → Left: Ensure every child with a higher rating than the right neighbor gets more candies, without breaking the work done in step 2 (that's why max() is used).
+// 4.Sum all the candies.
