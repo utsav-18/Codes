@@ -25,5 +25,5 @@ using namespace std;
     }
 
     int main(){
-        cout<<countPrimes(10);
+        cout<<countPrimes(100);
     }
