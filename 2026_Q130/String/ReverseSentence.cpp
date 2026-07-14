@@ -2,40 +2,32 @@
 using namespace std;
 
 string reverseWords(string s) {
-        int size = s.length() - 1;
-        string ans = "";
+    string ans = "";
+    int i = s.length() - 1;
 
-        int idx = size;
+    while (i >= 0) {
 
-        for (int i = size; i >= 0; i--) {
+        while (i >= 0 && s[i] == ' ')
+            i--;
 
-            while (idx >= 0 && s[idx] == ' ')
-                idx--;
+        if (i < 0)
+            break;
 
-            if (idx < 0)
-                break;
+        int j = i;
 
-            i = idx;     
+        while (j >= 0 && s[j] != ' ')
+            j--;
 
-            while (idx >= 0 && s[idx] != ' ')
-                idx--;
+        ans += s.substr(j + 1, i - j);
 
-            int k = idx + 1;
-            while (k <= i) {
-                ans += s[k++];
-            }
+        if (j > 0)
+            ans += ' ';
 
-            while (idx >= 0 && s[idx] == ' ')
-                idx--;
-
-            if (idx >= 0)
-                ans += ' ';
-
-            i = idx + 1;   
-        }
-
-        return ans;
+        i = j - 1;
     }
+
+    return ans;
+}
 
     int main(){
         string s = "the sky is blue";
