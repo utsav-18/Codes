@@ -40,9 +40,7 @@ public:
         for(int i=0;i<V;i++){
             cout<<dist[i]<<" ";
         }
-
         cout<<endl;
-
     }
 
 int main(){
