@@ -15,7 +15,7 @@ int MaxSum(vector<int>& nums, int target) {
         while(sum>=target){
             minLength = min(minLength,right-left+1);
             sum -= nums[left];
-            left--;
+            left++;
         }
 
     }
