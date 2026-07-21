@@ -15,7 +15,7 @@ int prismMST(int V, vector<vector<pair<int,int>>>& adj){
 
     int mstCost = 0;
 
-    pq.push({0,0});
+    pq.push({0,0}); // wt,vertex 
 
     while(pq.size()>0){
         auto p = pq.top();
