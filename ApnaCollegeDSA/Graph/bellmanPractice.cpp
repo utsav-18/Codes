@@ -16,26 +16,22 @@ public:
 
 };
 
-
-void bellmanFord(int src, vector<vector<Edge>>g, int V){
+void bellmanFord(int src, vector<vector<Edge>>& g ,int V){
     vector<int>dist(V,INT_MAX);
-    dist[src] = 0;
-
-    for(int i=0;i<V-1;i++){
-        for(int u=0;u<V;u++){
-            for(Edge e:g[u]){
-                if(dist[e.v]>dist[u]+e.wt){
-                    dist[e.v] = dist[u] + e.wt;
+        dist[src]=0;
+        for(int i=0;i<V-1;i++){
+            for(int u = 0;u<V;u++){
+                for(Edge e:g[u]){
+                    if(dist[e.v]>dist[u]+e.wt){
+                        dist[e.v]=dist[u]+e.wt;
+                    }
                 }
             }
         }
-    }
-    
-    for(int i=0;i<V;i++){
-        cout<<dist[i]<<" ";
-    }cout<<endl;
+        for(int i=0;i<V;i++){
+            cout<<dist[i]<<" ";
+        }
 }
-
 
 
 int main(){
