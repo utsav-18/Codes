@@ -15,7 +15,7 @@ bool isAnagram(string s, string t) {
     }
 
     for(char c:t){
-        if(mp.count(c)==0){
+        if(!mp.count(c)){
             return false;
         }
         else{
