@@ -21,7 +21,7 @@ using namespace std;
 int main(){
     vector<int>v;
     v={
-        1,1,2,2,2,1,1
+        1,1,2,2,2,1,1,2,2,2,2,2,2,2
     };
 
     cout<<"Majority: "<<majorityElement(v);
