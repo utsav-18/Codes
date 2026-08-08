@@ -30,7 +30,7 @@ void bestWay(int arr[] , int target, int size){
 }
 
 int main(){
-    int arr[]={2,7,11,12};
+    int arr[]={2,7,11,12,0,2,3,5,6};
     int size = sizeof(arr)/sizeof(arr[0]);
     int target = 9;
     // myWay(arr,target,size);
