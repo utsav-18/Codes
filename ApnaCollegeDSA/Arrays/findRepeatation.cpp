@@ -19,13 +19,13 @@ void findRepeatation(int a[], int size){
         }
 
         if (count > 1){
-            cout << a[i] << " repeated!! " << count << " times\n";
+            cout << a[i] << " repeated! " << count << " times\n";
         }
     }
 }
 
 int main(){
-    int a[]={7,7,1,9,1,4,6,1,23,6,6,6,5};
+    int a[]={7,7,1,9,1,4,6,1,23,6,6,6,5,5,3,5,6,8,7,9};
     int size = sizeof(a)/sizeof(a[0]);
     findRepeatation(a,size);
 }
