@@ -20,7 +20,7 @@ void accurance(int a[],int size){
 }
 
 int main(){
-    int a[]={1,2,3,9,4,1,6,1,8,1};
+    int a[]={1,2,3,9,4,1,6,1,8,1,5,7,8,9,5,4,0};
     int size = sizeof(a)/sizeof(a[0]);
     accurance(a,size);
 }
