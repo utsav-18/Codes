@@ -26,7 +26,7 @@ int getSecondLargest(int *arr, int n) {
 
 
 int main(){
-    int arr[]={10,5,10};
+    int arr[]={10,5,10,10,10,2,3,5,6,0};
     int size = sizeof(arr)/sizeof(arr[0]);
     cout<<getSecondLargest(arr,size);
 
