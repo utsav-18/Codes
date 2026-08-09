@@ -29,5 +29,5 @@ bool isValid(string s){
 
 int main(){
     cout<<boolalpha;
-    cout<<isValid("([])");
+    cout<<isValid("(){}[]([])");
 }
