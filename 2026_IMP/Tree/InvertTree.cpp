@@ -4,11 +4,11 @@ using namespace std;
 
 class TreeNode{
 public:
-    int val;
+    int data;
     TreeNode* left;
     TreeNode* right;
-    TreeNode(int val){
-        this->val=val;
+    TreeNode(int data){
+        this->data=data;
         this->left=NULL;
         this->right=NULL;
     }
@@ -19,10 +19,8 @@ TreeNode* invertTree(TreeNode* root) {
             return nullptr;
         }
 
-        // Swap left and right
         swap(root->left, root->right);
 
-        // Invert both subtrees
         invertTree(root->left);
         invertTree(root->right);
 
