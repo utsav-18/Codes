@@ -51,5 +51,12 @@ int main(){
 
     cout << "Before: ";
     inorder(root);
-    
+
+    invertTree(root);
+
+    cout << "\nAfter: ";
+    inorder(root);
+
+    return 0;
+
 }
