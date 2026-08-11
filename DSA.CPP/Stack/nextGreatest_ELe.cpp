@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-int arr[8]={3,1,2,5,4,6,2,3};
-int ans[8];
+int arr[12]={3,1,2,5,4,6,2,3,2,5,8,9};
+int ans[12];
 for(int i=0;i<8;i++){
     cout<<arr[i]<<" ";
 }cout<<endl;
