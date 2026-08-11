@@ -8,6 +8,8 @@ int main(){
     pq.push(200);
     pq.push(-600);
     pq.push(800);
+    pq.push(900);
+    pq.push(1000);
 
     cout<<pq.top();cout<<endl;
     pq.pop();
