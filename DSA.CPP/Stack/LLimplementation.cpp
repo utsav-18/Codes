@@ -64,11 +64,11 @@ void display(){
 int main(){
     stack st;
     cout<<st.top()<<endl;
-    st.push(10);
-    st.push(20);
-    st.push(30);
-    st.push(40);
-    st.push(50);
+    st.push(100);
+    st.push(200);
+    st.push(300);
+    st.push(400);
+    st.push(500);
     cout<<st.size<<endl;
     cout<<st.top()<<endl;
     st.display();
