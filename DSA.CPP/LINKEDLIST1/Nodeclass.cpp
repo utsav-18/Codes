@@ -20,10 +20,10 @@
     // }
 
     int main() {
-        Node a(10);
-        Node b(20);
-        Node c(30);
-        Node d(40);
+        Node a(100);
+        Node b(200);
+        Node c(300);
+        Node d(400);
         a.next= &b;
         b.next= &c;
         c.next= &d;
