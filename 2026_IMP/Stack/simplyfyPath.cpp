@@ -34,8 +34,9 @@ using namespace std;
 int main() {
 
     string path = "/home/user/Documents/../Pictures";
+    string path2 =   "/.../a/../b/c/../d/./";
 
-    cout << simplifyPath(path);
+    cout << simplifyPath(path2);
 
     return 0;
 }
