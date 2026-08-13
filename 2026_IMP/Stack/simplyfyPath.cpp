@@ -33,7 +33,7 @@ using namespace std;
 
 int main() {
 
-    string path = "/a/./b/../../c/";
+    string path = "/home/user/Documents/../Pictures";
 
     cout << simplifyPath(path);
 
