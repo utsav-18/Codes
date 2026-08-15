@@ -62,9 +62,9 @@ int main() {
     a->next = b;
     b->next = c;
 
-    ListNode* d = new ListNode(5);
-    ListNode* e = new ListNode(6);
-    ListNode* f = new ListNode(4);
+    ListNode* d = new ListNode(50);
+    ListNode* e = new ListNode(60);
+    ListNode* f = new ListNode(40);
 
     d->next = e;
     e->next = f;
