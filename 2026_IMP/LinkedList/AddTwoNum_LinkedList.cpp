@@ -55,9 +55,9 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
 int main() {
 
-    ListNode* a = new ListNode(2);
-    ListNode* b = new ListNode(4);
-    ListNode* c = new ListNode(3);
+    ListNode* a = new ListNode(20);
+    ListNode* b = new ListNode(40);
+    ListNode* c = new ListNode(30);
 
     a->next = b;
     b->next = c;
