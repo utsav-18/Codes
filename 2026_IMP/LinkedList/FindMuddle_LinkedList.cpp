@@ -33,13 +33,13 @@ void display(ListNode* ptr) {
 
 int main() {
 
-    ListNode* a = new ListNode(1);
-    ListNode* b = new ListNode(2);
-    ListNode* c = new ListNode(3);
-    ListNode* d = new ListNode(4);
-    ListNode* e = new ListNode(5);
-    ListNode* f = new ListNode(6);
-    ListNode* g = new ListNode(7);
+    ListNode* a = new ListNode(10);
+    ListNode* b = new ListNode(20);
+    ListNode* c = new ListNode(30);
+    ListNode* d = new ListNode(40);
+    ListNode* e = new ListNode(50);
+    ListNode* f = new ListNode(60);
+    ListNode* g = new ListNode(70);
     
     a->next = b;
     b->next = c;
