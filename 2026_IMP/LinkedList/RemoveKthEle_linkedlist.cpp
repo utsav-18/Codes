@@ -46,12 +46,12 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
 
 int main() {
 
-    ListNode* a = new ListNode(1);
-    ListNode* b = new ListNode(2);
-    ListNode* c = new ListNode(3);
-    ListNode* d = new ListNode(4);
-    ListNode* e = new ListNode(5);
-    ListNode* f = new ListNode(6);
+    ListNode* a = new ListNode(10);
+    ListNode* b = new ListNode(20);
+    ListNode* c = new ListNode(30);
+    ListNode* d = new ListNode(40);
+    ListNode* e = new ListNode(50);
+    ListNode* f = new ListNode(60);
 
     a->next = b;
     b->next = c;
