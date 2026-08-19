@@ -13,7 +13,7 @@ void mine(int n){
 }
 
 int main(){
-    int n=5;
+    int n=10;
     // mine(n);
 
     for(int i=0;i<n;i++){
