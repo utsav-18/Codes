@@ -14,8 +14,10 @@ void p2(int x,int y){
 }
 
 int main(){
-    int n = 5;
-
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+    
     p1(n);     
     cout << endl;
     p2(n, 1);  
