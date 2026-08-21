@@ -34,7 +34,7 @@ return a * power(a,b-1);
 
 int main(){
 int a;
-cout<<"Enter a: ";cin>>a;
+cout<<"Enter a number: ";cin>>a;
 int b;
 cout<<"Enter b: ";cin>>b;
 cout<<a<<" ^ "<<b<<" = "<<myPow(a,b);
