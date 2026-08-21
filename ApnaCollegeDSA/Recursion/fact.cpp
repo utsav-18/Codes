@@ -8,6 +8,8 @@ int fact(int n){
 }
 
 int main(){
-    int n =5;
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
     cout<<fact(n);
 }
