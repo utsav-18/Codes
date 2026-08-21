@@ -36,6 +36,6 @@ int main(){
 int a;
 cout<<"Enter a number: ";cin>>a;
 int b;
-cout<<"Enter b: ";cin>>b;
+cout<<"Enter it's power: ";cin>>b;
 cout<<a<<" ^ "<<b<<" = "<<myPow(a,b);
 }
