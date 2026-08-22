@@ -5,7 +5,7 @@ using namespace std;
 
     int main () {
 
-        int r=5,a=1,k,j;
+        int r=4,a=1,k,j;
    
             //for first line of stars.   
 
