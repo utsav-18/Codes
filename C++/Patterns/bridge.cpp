@@ -3,7 +3,7 @@ using namespace std;
 
     int main () {
 
-        int r=10;
+        int r=12;
    
             //for first line of stars.           
         for(int d=1;d<=(r*2)-1;d++){
