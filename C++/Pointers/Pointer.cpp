@@ -2,7 +2,7 @@
 using namespace std;
     int main () {
 
-        int x=5;
+        int x=50;
         int *p=&x;
 
     cout<<p<<"\n";
