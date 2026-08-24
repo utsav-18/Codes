@@ -2,7 +2,7 @@
     using namespace std;
         int main(){
 
-        int x=122;
+        int x=1222;
 
             int *p= &x;
 
