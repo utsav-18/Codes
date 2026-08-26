@@ -14,10 +14,18 @@
 # b=2
 # print(a**b)
 
-# x = int(input("Enter a num: "))
+#x = int(input("Enter a num: "))
 # if(x>0):
 #     print("Positive")
 # elif(x==0):
 #     print("Zero")
 # else:
 #     print("Negative")
+
+
+# for i in range(x):
+#     print(i,end=" ");
+
+# arr = [100,200,300,400,500]
+# for x in arr:
+#     print(x,end= " ")
