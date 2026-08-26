@@ -4,7 +4,8 @@
 # name = input("Enter your name: ")
 # print(name)
 
-a,b = map(int,input().split())
+# a,b = map(int, input().split())
+# print(a,b)
 
-print(a,end=" ")
-print(b)
+# arr = list(map(str,input().split()))
+# print(arr)
