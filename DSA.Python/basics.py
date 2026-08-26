@@ -32,5 +32,7 @@
 # for i in range(len(arr)):
 #     print(arr[i],end=" ")
 
-arr = [10,20,30,40,50]
-print(len(arr))
+# arr = [10,20,30,40,50]
+# print(len(arr))
+# arr.append(60)
+# print(len(arr))
