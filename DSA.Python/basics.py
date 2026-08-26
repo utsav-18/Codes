@@ -27,5 +27,7 @@
 #     print(i,end=" ");
 
 # arr = [100,200,300,400,500]
-# for x in arr:
-#     print(x,end= " ")
+# # for x in arr:
+# #     print(x,end= " ")
+# for i in range(len(arr)):
+#     print(arr[i],end=" ")
