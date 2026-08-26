@@ -64,5 +64,13 @@ arr = [10,20,30,40,50,10]
 # else:
 #     print("No")
 
-arr.sort()
-print(arr)
+# arr.sort()
+# print(arr)
+
+# arr.sort(reverse=True)
+# print(arr)
+
+# new_arr = sorted(arr)
+# print(arr)
+# print(new_arr)
+
