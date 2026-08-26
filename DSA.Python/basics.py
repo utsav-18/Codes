@@ -9,3 +9,15 @@
 
 # arr = list(map(str,input().split()))
 # print(arr)
+
+# a=5
+# b=2
+# print(a**b)
+
+# x = int(input("Enter a num: "))
+# if(x>0):
+#     print("Positive")
+# elif(x==0):
+#     print("Zero")
+# else:
+#     print("Negative")
