@@ -32,7 +32,7 @@
 # for i in range(len(arr)):
 #     print(arr[i],end=" ")
 
-#arr = [10,20,30,40,50]
+arr = [10,20,30,40,50]
 # print(len(arr))
 # arr.append(60)
 # print(len(arr))
@@ -40,3 +40,19 @@
 # print(arr)
 # arr.insert(1,500)
 # print(arr)
+
+# x = arr.pop()
+# print(x)
+
+#arr.pop(1)
+# print(arr)
+
+# arr.remove(20)
+# print(arr)
+
+# print(arr[1:4])
+
+# print(arr[:3])
+# print(arr[2:])
+
+# print(arr[::2])
