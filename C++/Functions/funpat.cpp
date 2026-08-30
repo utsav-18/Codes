@@ -14,7 +14,7 @@ for(int i=1;i<=n;i++){
 
     int main () {
 
-        int a=4,b=5,c=6;
+        int a=5,b=6,c=7;
 
         pat(a);
         pat(b);
