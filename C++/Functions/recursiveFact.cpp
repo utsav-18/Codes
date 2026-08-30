@@ -10,7 +10,7 @@
     }
         int main () {
 
-         long  a=10;
+         long  a=8;
 
         cout<<fact(a);
 
