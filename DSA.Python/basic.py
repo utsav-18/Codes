@@ -11,7 +11,9 @@ print(set)
 student={
     "Utsav" : 21,
     "Aman" : 21,
-    "Ram" : 20
+    "Ram" : 20,
+    "Shyam" : 80,
+    "Babu Rao" : 85
 }
 
 for key,value in student.items():
