@@ -30,7 +30,7 @@ def two_sum(nums,target):
         seen[x] = i
     return []
 
-nums = [2, 7, 11, 15]
+nums = [2, 7, 11, 15,17,5,8,6]
 target = 9
 
 print(two_sum(nums, target))
