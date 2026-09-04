@@ -9,8 +9,8 @@ class programer():
         print(f"Name: {self.name}\nExperience: {self.exp}\nSalary: {self.salary}\n")
 
 
-utsav = programer("Utsav Raj",2,100000)
+utsav = programer("Utsav Raj",2,500000)
 utsav.display()
 
-muskan = programer("Muskan",2,120000)
+muskan = programer("Muskan",2,700000)
 muskan.display()
