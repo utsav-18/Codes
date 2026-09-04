@@ -1,6 +1,6 @@
 class Employee:
     lang = "py"
-    salary = 2400000
+    salary = 450000
 
     def getInfo(self):
         print(f"The language is {self.lang}. The salary is {self.salary}")
