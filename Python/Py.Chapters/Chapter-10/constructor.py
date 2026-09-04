@@ -22,7 +22,7 @@
 
 class Employee:
     lang = "Python"
-    salary = 12000
+    salary = 2400000
 
     def __init__(self , name , salary , lang):
         self.name = name
