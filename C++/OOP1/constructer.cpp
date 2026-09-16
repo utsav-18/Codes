@@ -13,8 +13,8 @@
         };
         
         int main() {
-            person p1("Utsav",20);
-            person p2("Aman",20);
+            person p1("Utsav",200);
+            person p2("Aman",200);
             cout<<p1.name;
             cout<<endl;
             cout<<p1.age;

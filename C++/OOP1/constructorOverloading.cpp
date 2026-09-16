@@ -29,7 +29,7 @@ public:
 int main() {
     Rectangle rect1;        
     Rectangle rect2(10);    
-    Rectangle rect3(10, 20); 
+    Rectangle rect3(100, 200); 
 
     rect1.display();
     rect2.display();

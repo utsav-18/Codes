@@ -17,7 +17,7 @@
         };
         
         int main() {
-                Bike tvs(20,200);
+                Bike tvs(20,2000);
                 Bike honda(tvs);
                 //honda = tvs;  copy constructor == call by reference;
                 Bike suzuki(30,300);

@@ -10,8 +10,8 @@
 
         int main() {
             Player amit;
-            amit.score = 90;
-            amit.age = 20;
+            amit.score = 900;
+            amit.age = 200;
 
             Player utsav;
             utsav.name="Utsav Raj";
@@ -21,7 +21,7 @@
             Player manish;
             manish.name="Manu";
             manish.score = 85;
-            manish.age = 20; 
+            manish.age = 200; 
             
             Player players[3]={amit,utsav,manish};
 
