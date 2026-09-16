@@ -2,7 +2,7 @@
 using namespace std;
     int main(){
 
-        int arr[5]={2,8,2,9,2};
+        int arr[5]={2,8,2,9,2,0,5,8};
 
         int x,c=0;
         cout<<"Enter x:";
