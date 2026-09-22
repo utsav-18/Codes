@@ -3,14 +3,17 @@
 using namespace std;
 
 int cs(int n){
-    vector<int>v(n+1);
-    v[0]=0;
-    v[1]=1;
-    for(int i=2;i<=n;i++){
-        v[i] = v[i-1] + v[i-2];
-    }
-    return v[n];
+    if(n<=2) return n;
 
+    int p1 = 1;
+    int p2 = 2;
+    for(int i=3;i<=n;i++){
+        int p3=p1+p2;
+        p1=p2;
+        p2=p3;
+        
+    }
+    return p2;
 }
 
 int main(){
