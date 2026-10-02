@@ -19,7 +19,7 @@ int minimum(int a[],int size){
 }
 
 int main(){
-    int a[]={5,7,9,4,1,23,6,5,8,8,1,2};
+    int a[]={5,7,8,8,1,2};
     int size = sizeof(a)/sizeof(a[0]);
         cout<<"Max: "<<maximum(a,size)<<endl;
         cout<<"Min: "<<minimum(a,size);

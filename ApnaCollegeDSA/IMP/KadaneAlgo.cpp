@@ -19,7 +19,7 @@ int maxSubArray(vector<int>& nums) {
 
 int main(){
     vector<int>v;
-    v = {1,2};
+    v = {1,0,3,6,8,2};
     cout<<maxSubArray(v)<<endl;
 
 }
